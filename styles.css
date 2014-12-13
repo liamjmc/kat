@@ -22,15 +22,15 @@
         }
         #navigation-background{
             position:relative;
-            background:rgba(255,255,255,0.4); 
-            color:black;
+            background:rgba(255,255,255,0.9); 
+            color:#777;
             height:100%;
             float:right;
             z-index:99999;
         }
         #navigation-hover{
             background:transparent;  
-            border-right: 15px solid rgba(255,255,255,0.4);
+            border-right: 15px solid rgba(255,255,255,0.9);
         }
         #menu-list li{
             list-style-type: none;
@@ -50,3 +50,23 @@
             text-decoration: none;
             color:black;   
         }
+	img{
+            height:50px;
+            cursor:pointer;	
+	}
+        .gallery{
+            position: fixed;
+	    bottom: 0;
+            left: 5%;
+        }
+#gallery-container{
+    width:200px;
+    position:fixed;
+    bottom:0;
+    left:3%;
+    z-index:999999;
+}
+
+.slick-prev:before, .slick-next:before{
+ color:#777 !important;   
+}
