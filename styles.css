@@ -10,6 +10,27 @@
             float:right;
             margin:0;
             font-family: 'Poiret One', cursive;
+            background-attachment:fixed !important;
+        }
+        #name{
+            margin-bottom:20px;
+        }
+#navigation-menu{
+ background:rgba(255, 255, 255, 0.4);   
+}
+#about{
+ margin-left: auto;
+margin-right: auto;
+width: 40%;
+background: rgba(255, 255, 255, 0.9);
+padding: 25px;
+margin-top: 10%;  
+margin-bottom: 10%;  
+    display: none;
+}
+        #name a{ 
+            font-weight:900;
+            font-family: 'Great Vibes', cursive;
         }
         .right-navigation{
             
@@ -35,6 +56,7 @@
         #menu-list li{
             list-style-type: none;
             font-size:30px;
+            width:200px;
         }
         #menu-list{
             margin: auto;
@@ -49,9 +71,11 @@
             text-transform: none;
             text-decoration: none;
             color:black;   
+            cursor:pointer;	
         }
 	img{
             height:50px;
+            width:75px;
             cursor:pointer;	
 	}
         .gallery{
@@ -59,11 +83,27 @@
 	    bottom: 0;
             left: 5%;
         }
+#x{    
+   float:right; 
+    height:15px;
+    width: 15px;
+}
+#social{
+ position: fixed;
+    bottom:0;
+    display: none;
+}
+#social a img{
+ height:30px;
+    width:30px;
+    margin:5px;
+    margin-right:0;
+}
 #gallery-container{
-    width:200px;
+    width:290px;
     position:fixed;
     bottom:0;
-    left:3%;
+    right:3%;
     z-index:999999;
 }
 
